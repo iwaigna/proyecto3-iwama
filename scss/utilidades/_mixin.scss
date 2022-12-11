@@ -1,0 +1,25 @@
+// lo utilizamos para poder reutilizar codigo
+
+//mixin con parametros
+
+@mixin body{
+    color: $color-texto;
+    background-color:#c9c9c9 ;
+    background-position: center;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+
+}
+
+@mixin header {
+    text-align: left;
+    color: $color-titulo-footer-botones;
+    font-family: 'Roboto', sans-serif; 
+    background-color:$color-header;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+ }
+
+ 

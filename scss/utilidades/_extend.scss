@@ -1,0 +1,13 @@
+%estilosmain{
+    text-align: right;
+    width: 420px;
+
+}
+
+main .uno{
+    @extend %estilosmain;
+}
+
+main .dos{
+    @extend %estilosmain;
+}

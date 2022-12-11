@@ -1,0 +1,56 @@
+/*estilos de main*/
+
+main{
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+ }
+ 
+ 
+
+ nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    
+}
+
+
+header nav ul li:hover{
+    background-color: $color-titulo-footer-botones;
+    padding: 10px;
+    color: $color-borde-botones;
+    text-shadow: 1px 0.4px $color-borde-botones;
+    text-align: none;
+    border-radius: 2px;
+    box-shadow: 1px 0.4px $color-borde-botones;
+    transition: 0.3s;
+    display: flex;
+    
+    
+    
+
+}
+
+ .menu ul {
+    display: flex;
+
+    li {
+        margin-right: 20px;
+        border-radius: 2px;
+        list-style: none;
+        background-color: rgb(173, 173, 173);
+        border: 1px solid black;
+        padding: 7px;
+        
+
+    }
+
+    li a {
+        color: $color-botones-hover;
+        text-decoration: none;
+    }
+
+}

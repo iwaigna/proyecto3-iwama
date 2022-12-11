@@ -1,0 +1,32 @@
+/*Footer*/
+
+.footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: $color-header;
+    text-align: center;
+    color: aliceblue;
+    padding: 0.5em;
+    align-self: flex-end;
+    }
+    
+    .footer h2{
+    text-align: center;
+    margin: 50px;
+    
+    }
+
+    .iconos{
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      .iconos .icono{
+        font-size: 40px;
+      
+      }
+        
+
+ 
+  

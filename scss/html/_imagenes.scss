@@ -1,0 +1,35 @@
+/*imagenes del index*/
+.imagen {
+    justify-content: center;
+    display: flex;
+    width: 420px;
+    border: 1px solid rgb(0, 0, 0);
+
+
+}
+
+.imagenes{
+  display: flex;
+  gap: 20px;
+  margin-top: 1.3rem;
+}
+
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    margin: 5%;
+}
+
+
+
+/*diseño de imagen nosotros*/
+  .foto{
+    margin: 50px;
+    padding: 50px;
+  }
